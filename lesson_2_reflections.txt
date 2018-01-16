@@ -1,0 +1,37 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+With command git init I create a repo with a .git file; this enables me to keep track of everything 
+such as commits and then be able to access them.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is the step between the working directory and the repository; it enables me to build the repo only with files I want when they are ready
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+By ensuring that only the files that have the associated logical change are committed together it works to maintain only one logical change per commit
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+A branch is useful if I want to try and make experimental changes or features to the game and will be focusing on them but maintaining the main project in its entirety.
+
+How do the diagrams help you visualize the branch structure?
+
+It enables me to see which branch has which features/changes
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+It pulls two branches into one solid code. The digram enables us to see the commit/parental history or the commits
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Pros of auto merge is that it quickly combines commits in a logical way 
+Con of auto merge is that it makes some assumptions
+
+Pros of manual merge is that it ensures the code is what you want
+Cons is that it takes more time
