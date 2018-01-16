@@ -6,24 +6,29 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Although it could be useful to pull automatically in many cases, if you have many collaborators what you could be pulling may not be ready to interact well will your local programs.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are cloning repos directly and only on GitHub from one account to another. 
+    You use this when you want to work off of someone elses repo on GitHub but not actually affect their repo
+    Clones are copying an entire repos onto your local machine; they can be from the web/GitHub or locally stored
+    Clones are made when you will be pulling an entire directry to work on locally.
+    Branches occur within a repository to allow for modifications of the code in a "safe" way---These have nothing to do with storing/copying an entire repository
+
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    This enables you to look at someone collaboration offline and decide how to merge the repos
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You could use other cloud file sharing platforms or shared virtual drives or email the file back and forth. This would be much harder because you would not be able to track changes of who made what and you would likely create lots of conflicts.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    It is advantageous to make changes in a separate branch for the purpose of collaboration so that different users can work on various things without changing the master and as mentioned earlier branches enable us to develop features in a "safe" environment.
